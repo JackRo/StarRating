@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="js/star-rating.js"></script>
+    <title>Index</title>
+</head>
+<body>
+<div id="div_StarRating" class="star-rating-container">
+    <span class="fa fa-star unchecked"></span>
+    <span class="fa fa-star unchecked"></span>
+    <span class="fa fa-star unchecked"></span>
+    <span class="fa fa-star unchecked"></span>
+    <span class="fa fa-star unchecked"></span>
+</div>
+<div class="common-div" onclick="getRating();">
+    <button>Rate</button>
+</div>
+<div class="common-div">
+    <label for="input_Rate">Rate:</label>
+    <input id="input_Rate" type="text"/>
+</div>
+<div class="common-div" onclick="setRating();">
+    <button>SetRate</button>
+</div>
+</body>
+<script src="index.js"></script>
+</html>

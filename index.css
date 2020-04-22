@@ -1,0 +1,31 @@
+.star-rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.star-rating-container span {
+    font-size: 2em;
+    margin-left: 0.25em;
+}
+
+.unchecked {
+    color: #ddd;
+}
+
+.checked {
+    color: #ffa500;
+}
+
+.common-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+.common-div button {
+    width: 30%;
+}
