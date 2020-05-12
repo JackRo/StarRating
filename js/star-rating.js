@@ -1,11 +1,4 @@
 /**
- * StarRating JS
- *
- * @author zhuochangjing
- * @since 2020/4/21
- */
-
-/**
  * StarRating
  * @param starRatingDivContainerId {string} StarRating Container div id
  * @constructor
